@@ -17,6 +17,10 @@ export default function App() {
     return (
       <SafeAreaProvider>
         <Navigation colorScheme={colorScheme} />
+
+        <Text>Rokas</Text>
+
+
         <StatusBar />
       </SafeAreaProvider>
     );
